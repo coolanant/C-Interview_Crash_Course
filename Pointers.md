@@ -7,13 +7,14 @@ int *y=&x; // Declare And Assign
 int *z; // No initialization / Garbage value (Wild)
 ```
 
-2. 
+2.
+```
 Size of ptr is always same.
 
 4 byte (32 bit systems)
 
 8 byte (64 bit systems)
-
+```
 3. 
 ```c++
 int a=10;
