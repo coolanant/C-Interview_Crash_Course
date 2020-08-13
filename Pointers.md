@@ -16,7 +16,7 @@ Size of ptr is always same.
 
 3. 
 ```c++
-int a=10'
+int a=10;
 char *ptr=&a; // will read only 1 byte (cause error while dereferencing)
 ```
 
@@ -57,5 +57,5 @@ ptr=null; //Memory Leak
 & -> 
 1. can never be null
 2. can't be changed
-
+3. don't need explicit dereferncing mechanism
 ```
