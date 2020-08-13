@@ -16,3 +16,7 @@ Objects/classes - therfore, to easily **manage** and **reuse** code.
 4. Inheritance
 
 
+<hr/>
+1. #define - make named constants
+2. Typedef- giving alternate name to existing data type./=
+3. TypeCasting - forcefully change variable of datatype
