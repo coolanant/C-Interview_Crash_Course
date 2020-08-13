@@ -1,5 +1,9 @@
 ' * ' - Dereference Operator
 
+**Pointers** - Special type of variable, capable of holding the address.
+1. Helps access memory location of a variable
+2. supports dynamic allocation of a variable.
+
 1.
 ```c++
 int x=10;
