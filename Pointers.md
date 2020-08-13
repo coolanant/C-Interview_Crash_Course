@@ -1,10 +1,10 @@
-* - Dereference Operator
+' * ' - Dereference Operator
 
 1.
 ```c++
 int x=10;
 int *y=&x; // Declare And Assign
-int *z; // No initialization / Garbage value
+int *z; // No initialization / Garbage value (Wild)
 ```
 
 2. 
@@ -51,8 +51,9 @@ int **arr=new int*[100] // 1d Dynamic Array
 ```
 7.
 ```c++
-int *ptr;
-ptr=null; //Memory Leak
+int *ptr; // wild pointer/illegal memory runtime
+ptr=null; // Memory Leak
+// Dangling Pointer - A pointer pointing to memory location, that has been deleted/freed.
 
 & -> 
 1. can never be null
