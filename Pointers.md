@@ -4,7 +4,8 @@
 1. Helps access memory location of a variable
 2. supports dynamic allocation of a variable.
 
-1.
+
+-1.
 ```c++
 int x=10;
 int *y=&x; // Declare And Assign
